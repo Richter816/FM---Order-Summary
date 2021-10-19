@@ -128,8 +128,28 @@ h1 {
     color: hsl(223, 47%, 23%);
 }
 
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:2000px) {
+    .order-card {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .order-card {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .order-card {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
     .order-card {
         width: 80%;
     }
 }
+
+
