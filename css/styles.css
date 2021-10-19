@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    text-align: center;
+}
+
+.order-card {
+    display: block;
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 10%;
+    box-shadow: 0 20px 60px hsl(223, 47%, 23%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.perms {
+    color:hsl(224, 23%, 55%);
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.card-content {
+    width: 75%;
+    margin: auto;
+}
+
+.review {
+    display: flex;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.banner-img {
+    border-radius: 40px 40px 0px 0px;
+    width: 100%;
+}
+
+.music-img {
+    margin: auto 15px;
+}
+
+.plan-type {
+    font-weight: 900;
+}
+
+.review-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.plan-and-cost {
+    margin: 0;
+}
+
+.cost{
+    display: inline-block;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    vertical-align: middle;
+}
+
+.change {
+    margin: 0;
+    text-decoration: underline;
+    color:hsl(245, 50%, 52%);
+    margin-right: 25px;
+}
+
+.change:hover {
+    cursor:pointer;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%); 
+}
+
+
+.payment {
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    width: 90%;
+    margin: 40px auto 20px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 900;
+    color: white;
+    box-shadow: 0 20px 20px hsl(225, 100%, 94%);
+}
+
+.payment:hover {
+    cursor: pointer;
+    background-color: hsl(245, 50%, 52%);
+}
+
+.cancel { 
+    display: inline-block;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%); 
+    padding-bottom: 25px;
+    
+}
+
+.cancel:hover {
+    cursor:pointer;
+    color: hsl(223, 47%, 23%);
+}
